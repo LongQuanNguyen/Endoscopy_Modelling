@@ -2,6 +2,7 @@
 <ActiveObjectClass>
 	<Id>1760537621150</Id>
 	<Name><![CDATA[Main]]></Name>
+	<Import><![CDATA[import com.anylogic.cloud.util.CollectionUtils;]]></Import>
 	<Generic>false</Generic>
 	<GenericParameter>
 		<Id>1760537621155</Id>
@@ -93,6 +94,7 @@
 	</ScaleRuler>
 	<CurrentLevel>1760537621156</CurrentLevel>
 	<ConnectionsId>1760537621151</ConnectionsId>
+	<Variables xmlns:al="http://anylogic.com"/>
 	<AgentLinks>
 		<AgentLink>
 			<Id>1760537621151</Id>

@@ -38,7 +38,17 @@
 				<Alignment>LEFT</Alignment>
 			</Text>
 		</Presentation>
-		<Parameters/>
+		<Parameters>
+			<Parameter>
+				<ParameterName>isPrintingUpdates</ParameterName>
+			</Parameter>
+			<Parameter>
+				<ParameterName>isPrintingDebugs</ParameterName>
+			</Parameter>
+			<Parameter>
+				<ParameterName>isPrintWarnings</ParameterName>
+			</Parameter>
+		</Parameters>
 		<PresentationProperties>
 			<EnableZoomAndPanning>true</EnableZoomAndPanning>
 			<ExecutionMode>realTimeScaled</ExecutionMode>

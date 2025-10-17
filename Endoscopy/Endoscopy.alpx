@@ -9,7 +9,12 @@
 		<EngineVersion>6</EngineVersion>
 		<JavaPackageName><![CDATA[endoscopy]]></JavaPackageName>
 		<ModelTimeUnit>Day</ModelTimeUnit>
-		<Folders/>
+		<Folders>
+			<Folder>
+				<Id>1760712027147</Id>
+				<Name><![CDATA[CustomExceptions]]></Name>
+			</Folder>
+		</Folders>
 		<ActiveObjectClasses/>
 		<DifferentialEquationsMethod>EULER</DifferentialEquationsMethod>
 		<MixedEquationsMethod>RK45_NEWTON</MixedEquationsMethod>
@@ -53,6 +58,47 @@
 			<Inputs/>
 			<Outputs/>
 		</RunConfiguration>
+		<JavaClasses>
+			<JavaClass>
+				<Id>1760711579466</Id>
+				<Name><![CDATA[Utils]]></Name>
+			</JavaClass>
+			<JavaClass>
+				<Id>1760712027149</Id>
+				<Name><![CDATA[ColumnNotFoundException]]></Name>
+				<Folder>1760712027147</Folder>
+			</JavaClass>
+			<JavaClass>
+				<Id>1760712027169</Id>
+				<Name><![CDATA[DataValidationException]]></Name>
+				<Folder>1760712027147</Folder>
+			</JavaClass>
+			<JavaClass>
+				<Id>1760712027174</Id>
+				<Name><![CDATA[FileFormatException]]></Name>
+				<Folder>1760712027147</Folder>
+			</JavaClass>
+			<JavaClass>
+				<Id>1760714753555</Id>
+				<Name><![CDATA[AbstractParser]]></Name>
+			</JavaClass>
+			<JavaClass>
+				<Id>1760715741812</Id>
+				<Name><![CDATA[ParserHeader]]></Name>
+			</JavaClass>
+			<JavaClass>
+				<Id>1760720055495</Id>
+				<Name><![CDATA[PatientParser]]></Name>
+			</JavaClass>
+			<JavaClass>
+				<Id>1760721867896</Id>
+				<Name><![CDATA[OperatingRoomParser]]></Name>
+			</JavaClass>
+			<JavaClass>
+				<Id>1760722125361</Id>
+				<Name><![CDATA[SurgeonParser]]></Name>
+			</JavaClass>
+		</JavaClasses>
 		<RequiredLibraryReference>
 			<LibraryName>com.anylogic.libraries.modules.markup_descriptors</LibraryName>
 			<VersionMajor>1</VersionMajor>
